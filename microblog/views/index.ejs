@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+    <script type="text/javascript" src="/javascripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
+
+  </head>
+  <body>
+    <div class="collapse navbar-collapse navbar-fixed-top navbar-inverse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/">首页</a></li>
+            <li class="divider"></li>
+            <li class="active"><a href="/login">登录</a></li>
+            <li class="divider"></li>
+            <li class="active"><a href="/reg">注册</a></li>
+            <li class="divider"></li>
+        </ul>
+    </div>
+
+    <div id="container" class="container">
+      <%- partial('body') %>
+      <hr />
+    </div>
+
+
+
+  </body>
+</html>
